@@ -60,9 +60,7 @@ class PlayerArrow {
     for (var i = 0; i < this.trajectory.length; i++) {
       fill("white");
 
-      image(this.image, this.trajectory[i][0], this.trajectory[i][1], 5, 5);
-      
-    }
+      image(this.image, this.trajectory[i][0], this.trajectory[i][1], 5, 5);}
     
   }
 }
